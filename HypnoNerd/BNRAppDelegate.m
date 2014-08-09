@@ -9,6 +9,7 @@
 #import "BNRAppDelegate.h"
 #import "BNRHypnosisViewController.h"
 #import "BNRReminderViewController.h"
+#import "BNRViewController.h" // Quiz
 
 @implementation BNRAppDelegate
 
@@ -21,8 +22,10 @@
     BNRReminderViewController *rvc =
     [[BNRReminderViewController alloc]init];
     
+    BNRViewController *qvc = [[BNRViewController alloc]init];
+    
     UITabBarController *tabBarController = [[UITabBarController alloc]init];
-    tabBarController.viewControllers = @[hvc, rvc];
+    tabBarController.viewControllers = @[hvc, rvc, qvc];
     
     self.window.rootViewController = tabBarController;
     
