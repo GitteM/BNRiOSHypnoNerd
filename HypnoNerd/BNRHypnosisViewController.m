@@ -37,4 +37,10 @@
     self.view = backgroundView;
 }
 
+- (void)viewDidLoad {
+    // Always call the super implementation of view did load
+    [super viewDidLoad];
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+
 @end

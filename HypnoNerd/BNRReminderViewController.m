@@ -34,6 +34,16 @@
     return self;
 }
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.datePicker.minimumDate = [NSDate dateWithTimeIntervalSinceNow:60];
+}
+
 - (IBAction)addReminder:(id)sender {
     NSDate *date = self.datePicker.date;
     NSLog(@"Setting a reminder for %@", date);
