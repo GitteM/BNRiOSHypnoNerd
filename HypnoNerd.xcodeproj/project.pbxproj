@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECFC3CF0199638000046359B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFC3CEF199638000046359B /* Foundation.framework */; };
+		ECFC3CF2199638000046359B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFC3CF1199638000046359B /* CoreGraphics.framework */; };
+		ECFC3CF4199638000046359B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFC3CF3199638000046359B /* UIKit.framework */; };
+		ECFC3CFA199638000046359B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECFC3CF8199638000046359B /* InfoPlist.strings */; };
+		ECFC3CFC199638000046359B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFC3CFB199638000046359B /* main.m */; };
+		ECFC3D00199638000046359B /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFC3CFF199638000046359B /* BNRAppDelegate.m */; };
+		ECFC3D02199638000046359B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFC3D01199638000046359B /* Images.xcassets */; };
+		ECFC3D09199638000046359B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFC3D08199638000046359B /* XCTest.framework */; };
+		ECFC3D0A199638000046359B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFC3CEF199638000046359B /* Foundation.framework */; };
+		ECFC3D0B199638000046359B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFC3CF3199638000046359B /* UIKit.framework */; };
+		ECFC3D13199638000046359B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECFC3D11199638000046359B /* InfoPlist.strings */; };
+		ECFC3D15199638000046359B /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFC3D14199638000046359B /* HypnoNerdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECFC3D0C199638000046359B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECFC3CE4199638000046359B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFC3CEB199638000046359B;
+			remoteInfo = HypnoNerd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECFC3CEC199638000046359B /* HypnoNerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoNerd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC3CEF199638000046359B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECFC3CF1199638000046359B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECFC3CF3199638000046359B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECFC3CF7199638000046359B /* HypnoNerd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnoNerd-Info.plist"; sourceTree = "<group>"; };
+		ECFC3CF9199638000046359B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECFC3CFB199638000046359B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECFC3CFD199638000046359B /* HypnoNerd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HypnoNerd-Prefix.pch"; sourceTree = "<group>"; };
+		ECFC3CFE199638000046359B /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		ECFC3CFF199638000046359B /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		ECFC3D01199638000046359B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECFC3D07199638000046359B /* HypnoNerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNerdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC3D08199638000046359B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECFC3D10199638000046359B /* HypnoNerdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnoNerdTests-Info.plist"; sourceTree = "<group>"; };
+		ECFC3D12199638000046359B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECFC3D14199638000046359B /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECFC3CE9199638000046359B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC3CF2199638000046359B /* CoreGraphics.framework in Frameworks */,
+				ECFC3CF4199638000046359B /* UIKit.framework in Frameworks */,
+				ECFC3CF0199638000046359B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC3D04199638000046359B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC3D09199638000046359B /* XCTest.framework in Frameworks */,
+				ECFC3D0B199638000046359B /* UIKit.framework in Frameworks */,
+				ECFC3D0A199638000046359B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECFC3CE3199638000046359B = {
+			isa = PBXGroup;
+			children = (
+				ECFC3CF5199638000046359B /* HypnoNerd */,
+				ECFC3D0E199638000046359B /* HypnoNerdTests */,
+				ECFC3CEE199638000046359B /* Frameworks */,
+				ECFC3CED199638000046359B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECFC3CED199638000046359B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC3CEC199638000046359B /* HypnoNerd.app */,
+				ECFC3D07199638000046359B /* HypnoNerdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECFC3CEE199638000046359B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC3CEF199638000046359B /* Foundation.framework */,
+				ECFC3CF1199638000046359B /* CoreGraphics.framework */,
+				ECFC3CF3199638000046359B /* UIKit.framework */,
+				ECFC3D08199638000046359B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECFC3CF5199638000046359B /* HypnoNerd */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC3CFE199638000046359B /* BNRAppDelegate.h */,
+				ECFC3CFF199638000046359B /* BNRAppDelegate.m */,
+				ECFC3D01199638000046359B /* Images.xcassets */,
+				ECFC3CF6199638000046359B /* Supporting Files */,
+			);
+			path = HypnoNerd;
+			sourceTree = "<group>";
+		};
+		ECFC3CF6199638000046359B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC3CF7199638000046359B /* HypnoNerd-Info.plist */,
+				ECFC3CF8199638000046359B /* InfoPlist.strings */,
+				ECFC3CFB199638000046359B /* main.m */,
+				ECFC3CFD199638000046359B /* HypnoNerd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECFC3D0E199638000046359B /* HypnoNerdTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC3D14199638000046359B /* HypnoNerdTests.m */,
+				ECFC3D0F199638000046359B /* Supporting Files */,
+			);
+			path = HypnoNerdTests;
+			sourceTree = "<group>";
+		};
+		ECFC3D0F199638000046359B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC3D10199638000046359B /* HypnoNerdTests-Info.plist */,
+				ECFC3D11199638000046359B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECFC3CEB199638000046359B /* HypnoNerd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC3D18199638000046359B /* Build configuration list for PBXNativeTarget "HypnoNerd" */;
+			buildPhases = (
+				ECFC3CE8199638000046359B /* Sources */,
+				ECFC3CE9199638000046359B /* Frameworks */,
+				ECFC3CEA199638000046359B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypnoNerd;
+			productName = HypnoNerd;
+			productReference = ECFC3CEC199638000046359B /* HypnoNerd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECFC3D06199638000046359B /* HypnoNerdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC3D1B199638000046359B /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */;
+			buildPhases = (
+				ECFC3D03199638000046359B /* Sources */,
+				ECFC3D04199638000046359B /* Frameworks */,
+				ECFC3D05199638000046359B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFC3D0D199638000046359B /* PBXTargetDependency */,
+			);
+			name = HypnoNerdTests;
+			productName = HypnoNerdTests;
+			productReference = ECFC3D07199638000046359B /* HypnoNerdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECFC3CE4199638000046359B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					ECFC3D06199638000046359B = {
+						TestTargetID = ECFC3CEB199638000046359B;
+					};
+				};
+			};
+			buildConfigurationList = ECFC3CE7199638000046359B /* Build configuration list for PBXProject "HypnoNerd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECFC3CE3199638000046359B;
+			productRefGroup = ECFC3CED199638000046359B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECFC3CEB199638000046359B /* HypnoNerd */,
+				ECFC3D06199638000046359B /* HypnoNerdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECFC3CEA199638000046359B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC3CFA199638000046359B /* InfoPlist.strings in Resources */,
+				ECFC3D02199638000046359B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC3D05199638000046359B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC3D13199638000046359B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECFC3CE8199638000046359B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC3CFC199638000046359B /* main.m in Sources */,
+				ECFC3D00199638000046359B /* BNRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC3D03199638000046359B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC3D15199638000046359B /* HypnoNerdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECFC3D0D199638000046359B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECFC3CEB199638000046359B /* HypnoNerd */;
+			targetProxy = ECFC3D0C199638000046359B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECFC3CF8199638000046359B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFC3CF9199638000046359B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECFC3D11199638000046359B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFC3D12199638000046359B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECFC3D16199638000046359B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECFC3D17199638000046359B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECFC3D19199638000046359B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HypnoNerd/HypnoNerd-Prefix.pch";
+				INFOPLIST_FILE = "HypnoNerd/HypnoNerd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECFC3D1A199638000046359B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HypnoNerd/HypnoNerd-Prefix.pch";
+				INFOPLIST_FILE = "HypnoNerd/HypnoNerd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECFC3D1C199638000046359B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HypnoNerd.app/HypnoNerd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HypnoNerd/HypnoNerd-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HypnoNerdTests/HypnoNerdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECFC3D1D199638000046359B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HypnoNerd.app/HypnoNerd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HypnoNerd/HypnoNerd-Prefix.pch";
+				INFOPLIST_FILE = "HypnoNerdTests/HypnoNerdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECFC3CE7199638000046359B /* Build configuration list for PBXProject "HypnoNerd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC3D16199638000046359B /* Debug */,
+				ECFC3D17199638000046359B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFC3D18199638000046359B /* Build configuration list for PBXNativeTarget "HypnoNerd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC3D19199638000046359B /* Debug */,
+				ECFC3D1A199638000046359B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECFC3D1B199638000046359B /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC3D1C199638000046359B /* Debug */,
+				ECFC3D1D199638000046359B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECFC3CE4199638000046359B /* Project object */;
+}
