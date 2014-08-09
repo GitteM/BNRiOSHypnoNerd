@@ -12,20 +12,14 @@
 
 @implementation BNRAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc]init];
     
-    // Get a pointer to an object that represents the app bundle
-    NSBundle *appBundle = [NSBundle mainBundle];
-    
     // Look in the appBundle for a BNRReminderViewController.xib file
     BNRReminderViewController *rvc =
-    [[BNRReminderViewController alloc]initWithNibName:@"BNRReminderViewController"
-                                               bundle:appBundle];
-    
+    [[BNRReminderViewController alloc]init];
     
     UITabBarController *tabBarController = [[UITabBarController alloc]init];
     tabBarController.viewControllers = @[hvc, rvc];
