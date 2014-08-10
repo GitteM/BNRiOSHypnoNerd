@@ -100,6 +100,19 @@
         // Add the label to the hierarchy
         [self.view addSubview:messageLabel];
         
+        // Add motion effect
+        UIInterpolatingMotionEffect *motionEffect =
+        [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.x"
+                                                        type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
+        motionEffect.minimumRelativeValue = @(-25);
+        motionEffect.maximumRelativeValue = @(25);
+        [messageLabel addMotionEffect:motionEffect];
+        
+        motionEffect =
+        [[UIInterpolatingMotionEffect alloc]initWithKeyPath:@"center.y"
+                                                       type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
+        motionEffect.minimumRelativeValue = @(-25);
+        motionEffect.maximumRelativeValue = @(25);
     }
 }
 
